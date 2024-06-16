@@ -1,0 +1,23 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdav892/spinsomethingup.git"
+  },
+  "author": "jdav892",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdav892/spinsomethingup/issues"
+  },
+  "homepage": "https://github.com/jdav892/spinsomethingup#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
