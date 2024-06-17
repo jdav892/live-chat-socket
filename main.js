@@ -11,7 +11,7 @@ webSocket.addEventListener("open", () => {
             });
 
 function sendMessage(event){
-    var inputMessage = document.getElementById('message')
+    let inputMessage = document.getElementById('message')
     webSocket.send(inputMessage.value)
     inputMessage.value = ""
     event.preventDefault();
